@@ -1,0 +1,63 @@
+.headerInfo {
+  position: relative;
+  text-align: center;
+}
+
+.headerInfo > span {
+  display: inline-block;
+  margin-bottom: 4px;
+  color: rgba(0,0,0,.45);
+  font-size: 14px;
+  line-height: 22px;
+}
+.headerInfo > p {
+  margin: 0;
+  color: rgba(0,0,0,.85);
+  font-size: 24px;
+  line-height: 32px;
+}
+.headerInfo > em {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 56px;
+  background-color: #f0f0f0;
+}
+
+.ant-table-content::-webkit-scrollbar {
+  width: 3px;
+  height: 12px
+}
+
+.ant-table-content::-webkit-scrollbar-button:end:increment,.ant-table-content::-webkit-scrollbar-button:start:decrement {
+  display: none;
+  background: 0 0
+}
+
+.ant-table-content::-webkit-scrollbar-track-piece {
+  background: #d6dadc
+}
+
+.ant-table-content::-webkit-scrollbar-track-piece:vertical:start {
+  border-radius: 5px 5px 0 0
+}
+
+.ant-table-content::-webkit-scrollbar-track-piece:vertical:end {
+  border-radius: 0 0 5px 5px
+}
+
+.ant-table-content::-webkit-scrollbar-track-piece:horizontal:start {
+  border-radius: 5px 0 0 5px
+}
+
+.ant-table-content::-webkit-scrollbar-track-piece:horizontal:end {
+  border-radius: 0 5px 5px 0
+}
+
+.ant-table-content::-webkit-scrollbar-thumb:horizontal,.ant-table-content::-webkit-scrollbar-thumb:vertical {
+  display: block;
+  height: 50px;
+  border-radius: 5px;
+  background: grey
+}

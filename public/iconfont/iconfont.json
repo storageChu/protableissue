@@ -1,0 +1,37 @@
+{
+  "id": "2106275",
+  "name": "项目看板",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8448537",
+      "name": "项目管理",
+      "font_class": "product",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "12312822",
+      "name": "个人",
+      "font_class": "person",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "8749685",
+      "name": "消息",
+      "font_class": "message",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "15685022",
+      "name": "加号",
+      "font_class": "plus",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    }
+  ]
+}
